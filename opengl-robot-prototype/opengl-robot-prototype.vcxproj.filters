@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\skybox">
+      <UniqueIdentifier>{1750f07a-c718-4b99-97b0-0e98fe2deab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texture">
+      <UniqueIdentifier>{79a4f849-466c-4346-8247-b970accdecaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gun">
+      <UniqueIdentifier>{2af7b1de-6662-411b-bf8f-a1457c8e6ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\robot">
+      <UniqueIdentifier>{391b8c12-9cdc-4d80-90b4-5bd27a0d3870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shield">
+      <UniqueIdentifier>{79adcbcb-f628-4976-a169-9fb179a41f4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\robotArm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\robotHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\robotLeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\robotTorso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\skybox\pz.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\nx.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\ny.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\nz.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\px.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\py.bmp">
+      <Filter>Resource Files\skybox</Filter>
+    </Image>
+    <Image Include="assets\texture\blackTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\explosionTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\grayTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\gunTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\robotArmorTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\robotAttireTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\robotEyeTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\robotInteriorTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\shieldSpikesTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\silverTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="assets\texture\sunTexture.bmp">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\gun\gun.cpp">
+      <Filter>Source Files\gun</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\shield\shield.cpp">
+      <Filter>Source Files\shield</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\robot\robotArm.cpp">
+      <Filter>Source Files\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\robot\robotHead.cpp">
+      <Filter>Source Files\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\robot\robotLeg.cpp">
+      <Filter>Source Files\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="assets\robot\robotTorso.cpp">
+      <Filter>Source Files\robot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
